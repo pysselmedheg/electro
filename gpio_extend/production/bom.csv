@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2, C3, C4, C5, C6, C7, C8, C9",0603,9,0.1uF,
+"D1, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D2, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D3, D30, D31, D32, D4, D5, D6, D7, D8, D9",0603,32,LED,
+"J1, J22",PinSocket_1x07_P2.54mm_Vertical,2,Conn_01x07_Socket,
+"J11, J2, J5, J8",PinHeader_1x02_P2.54mm_Vertical,4,Conn_01x02_Pin,
+"J12, J3, J6, J9",PinSocket_1x11_P2.54mm_Vertical,4,Conn_01x11_Socket,
+"J14, J16, J18, J20",PinSocket_1x09_P2.54mm_Vertical,4,Conn_01x09_Socket,
+"J15, J17, J19, J21",PinHeader_1x03_P2.54mm_Vertical,4,Conn_01x03_Pin,
+"R1, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R2, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R3, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R4, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, R5, R50, R51, R52, R53, R54, R55, R56, R57, R58, R59, R6, R60, R61, R62, R63, R64, R7, R8, R9",0603,64,10k,
+"U1, U2, U3, U4",TSSOP-16_4.4x5mm_P0.65mm,4,74AC595,
+U5,SOT-23-5_HandSoldering,1,74AHC1G00,
+"U6, U7, U8, U9",TSSOP-16_4.4x5mm_P0.65mm,4,74HC165,

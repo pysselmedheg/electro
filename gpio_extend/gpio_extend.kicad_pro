@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|129955000|53285000|57bf53bd-00d0-482b-9bfe-f9551e34abbe|daa2f32d-b181-4c1c-a5f9-461abafde276",
+        "courtyards_overlap|129955000|65985000|31459827-be3a-4f5e-82c6-188a7f78c429|b0077495-3046-4b9e-8ca5-8f75366e9966",
+        "courtyards_overlap|129955000|68525000|31459827-be3a-4f5e-82c6-188a7f78c429|4247c272-a6d7-48d0-bb4a-8873a917778f",
+        "courtyards_overlap|129955000|83765000|a9eba7a9-b1db-48e1-8875-ee5b7a23232e|ec31e96f-b302-4fb4-9edc-9125fb00860b",
+        "courtyards_overlap|129955000|99005000|8984512d-8a77-4bf2-8536-30805885af28|aad3cda6-c429-4ecc-bd51-7f7526c04715",
+        "courtyards_overlap|129957923|81225000|ec31e96f-b302-4fb4-9edc-9125fb00860b|fcc961cf-5814-458b-8e0d-308f2bdb4ec8",
+        "courtyards_overlap|129957923|96465000|aad3cda6-c429-4ecc-bd51-7f7526c04715|b2af5e44-90aa-4fa4-9d4a-c515589238b3",
+        "courtyards_overlap|131005000|50745000|61e06ac8-76e8-4e89-a33e-2d05e1834200|daa2f32d-b181-4c1c-a5f9-461abafde276",
+        "courtyards_overlap|131005000|53285000|57bf53bd-00d0-482b-9bfe-f9551e34abbe|61e06ac8-76e8-4e89-a33e-2d05e1834200",
+        "courtyards_overlap|131005000|68525000|4247c272-a6d7-48d0-bb4a-8873a917778f|b0077495-3046-4b9e-8ca5-8f75366e9966",
+        "courtyards_overlap|131005000|83765000|a9eba7a9-b1db-48e1-8875-ee5b7a23232e|fcc961cf-5814-458b-8e0d-308f2bdb4ec8",
+        "courtyards_overlap|131005000|99005000|8984512d-8a77-4bf2-8536-30805885af28|b2af5e44-90aa-4fa4-9d4a-c515589238b3"
+      ],
       "meta": {
         "version": 2
       },
@@ -98,7 +111,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -123,7 +136,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -131,7 +144,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.05,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -513,7 +526,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "gpio_extend.step",
       "svg": "",
       "vrml": ""
     },
