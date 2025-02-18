@@ -20,10 +20,12 @@ The serial interface has four digital pins:
   - ser_out : output from the gpio extender (for GPI)
 
 Negative edge on pclk:
-  - GPIs are sampled.  
+  - GPIs are sampled.
+  
 Positive edge on sclk:
   - GPI data is shifted out from the GPIO extender.
-  - GPO data is shifted in to the GPIO extender.  
+  - GPO data is shifted in to the GPIO extender.
+  
 Positive edge on pclk:
   - GPOs are updated with new data.
 
