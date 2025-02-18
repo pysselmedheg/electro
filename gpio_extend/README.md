@@ -20,14 +20,14 @@ The serial interface has four digital pins:
   - ser_out : output from the gpio extender (for GPI)
 
 Negative edge on pclk:
-  - GPIs are sampled.
+  - GPIs are sampled.  
 Positive edge on sclk:
   - GPI data is shifted out from the GPIO extender.
-  - GPO data is shifted in to the GPIO extender.
+  - GPO data is shifted in to the GPIO extender.  
 Positive edge on pclk:
   - GPOs are updated with new data.
 
-# Python Driver
+## Python Driver
 
 The python folder contains a driver for Micropython on Raspberry Pi Pico. It uses two state machines in a PIO for the communication.
 Surprisingly, it can handle the interface at cpu_clk/3 bps, ie 125MHz/3 = 41.7 MHz. 
